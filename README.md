@@ -10,13 +10,13 @@
 <h2>Task 2 </h2>
 <h3><a href = "https://github.com/snehalgadge/Consultant-Assesment/tree/main/Task2_ISRO">ISRO</h3>
 <h3><a href = ">Live Link : in process</h3>
-<pThis project is build with the help of HTML CSS and JavaScript . I used fetch API to get the API of ISRO</p>
+<p>This project is build with the help of HTML CSS and JavaScript . I used fetch API to get the API of ISRO</p>
 
 
 <br>
 
-<h2>Task 3 </h2>
+<h2>Task 3</h2>
 <h3><a href = "https://github.com/snehalgadge/Consultant-Assesment/tree/main/Task3_Github">Github Profile</h3>
 <h3><a href = "https://luminous-gelato-525e1e.netlify.app/">Live Link</h3>
-<pThis project is build with the help of HTML CSS and JavaScript . I used fetch API to get the API of each profile][\']['l</p>
+<p>This project is build with the help of HTML CSS and JavaScript . I used fetch API to get the API of each profile][\']['l</p>
 

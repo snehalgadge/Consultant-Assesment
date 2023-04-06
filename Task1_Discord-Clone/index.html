@@ -6,10 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+        theme: {
+          screens:{
+              'sm':'360px',
+              'md':'768px',
+              'lg':'930px',
+              'xl': '1260px',
+              
+          }
+          ,
+          fontFamily:{
+              'pfont':['Inter,sans-serif']
+          },
+          extend: {
+              colors: {
+                pcolor:'#01baf3',
+                hovercolor1:'#00a5e0',
+                hovercolor2:'#061e3e',
+                sec2color:'#0f4b8b',
+                btncolor:'#002871',
+              clifford: '#da373d',
+              transparent: 'transparent',
+              sec9color:'#f1fbfe',
+
+            }
+          }
+        }
+      }
+    </script>
     <title>Discord Clone</title>
 </head>
-<body>
-    <section class=" bg-blue-400 pb-9 ">
+<body class="overflow-x-hidden">
+    <section class=" bg-blue-400 pb-9 sm  md">
         
       <!-- navbar -->
         <nav class="flex justify-evenly items-center h-[15vh] text-white font-medium font-lg">
@@ -30,11 +60,11 @@
 
         <!-- hero-section -->
         <main class="flex flex-col  items-center h-[80vh] pt-2">
-            <h1 class="font-bold text-[60px] font-serif text-white">IMAGINE A PLACE...</h1>
+            <h1 class="font-bold text-[60px] font-pfont text-white">IMAGINE A PLACE...</h1>
             <div class="px-[25%] py-0 text-[20px] font-sans pt-2 text-white">...where you can belong to a school club, a gaming group, or a worldwide art community. Where just you and a handful of friends can spend time together. A place that makes it easy to talk every day and hang out more often.</div>
                 <div class="flex justify-evenly items-center w-[30%] pt-4">
                 <button class="border-solid border-2 border-slate-50 rounded-full py-[1.5%] px-[2.5%] mr-1 text-black bg-white font-medium font-md hover:text-cyan-600 hover:drop-shadow-xl"><i class="fas fa-arrow-down"></i> Download for Windows</button>
-                <button class="border-solid border-2 border-slate-50 rounded-full py-[1.5%] px-[2.5%]  text-black bg-white font-medium font-md hover:text-cyan-600 hover:drop-shadow-xl">Open Discord in your browser</button>
+                <button class="border-solid border-2 border-black rounded-full py-[1.5%] px-[2.5%]  text-white bg-slate-900 font-medium font-md hover:text-cyan-600 hover:drop-shadow-xl">Open Discord in your browser</button>
                 
             </div>
                 <img 
